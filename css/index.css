@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+div{
+  width:300px;
+  box-sizing: border-box;
+  padding: 0px 5px;
+ /* overflow: hidden; */
+  margin:0 auto;
+  /* border:1px solid; */
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px 4px rgba(0, 0, 0, .4);
+}
+
+.container img{
+  width: 140px;
+  height: 140px;
+  border-radius: 4px;
+  /* margin-left: 10px; */
+  margin-top:10px;
+  
+}
