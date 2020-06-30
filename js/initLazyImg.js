@@ -17,7 +17,7 @@ function initLazyImage(defaultImage) {
     timer = setTimeout(() => {
       loadingImg();
       console.log(imgs.length);
-    }, 16)
+    }, 160)
 
 
     if (imgs.length == 0) {
